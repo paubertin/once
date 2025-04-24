@@ -1,0 +1,23 @@
+{
+  "name": "once",
+  "version": "1.0.0",
+  "description": "Lightweight component base for Web Components with state management.",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "prepare": "npm run build",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paubertin/once.git"
+  },
+  "keywords": [],
+  "author": "scal",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "5.8.3"
+  }
+}
